@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comercio digital</title>
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <H1>Apenas um teste amigavel</H1>
-    <footer>&copy; Todos os direitos reservados ao Immilengo</footer>
+    <header>
+        <div class="logo">Loja Online</div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#" class="cart-icon">Carrinho (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Bem-vindo à Loja Online</h1>
+            <p>Os melhores produtos para você</p>
+            <a href="#" class="cta">Compre Agora</a>
+        </section>
+
+        <section class="products">
+            <h2>Produtos em Destaque</h2>
+            <div class="product-grid">
+                <!-- Produtos serão inseridos aqui via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja Online. Todos os direitos reservados. Immilengo marca registrada</p>
+    </footer>
+
+    <script src="dinamica.js"></script>
 </body>
 </html>
